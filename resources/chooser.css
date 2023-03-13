@@ -1,0 +1,23 @@
+VBox {
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-max-width: 450;
+}
+
+ListView {
+    -fx-pref-width: 400;
+    -fx-pref-height: 150;
+}
+
+.button-refuser{
+    -fx-text-fill: black;
+    -fx-base: lightcoral;
+
+}
+
+.button-accept{
+    -fx-base: #b6e7c9;
+    -fx-text-fill: black;
+
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Empirez';
+    src: url('Empirez.ttf');
+}
+
+.root{
+    -fx-background-color: lightsteelblue;
+    -fx-image: url("map.png");
+    -fx-padding: 20;
+}
+
+
+.label{
+    -fx-font-family: Empirez;
+    -fx-text-fill: black;
+    -fx-font-size: 20;
+    -fx-padding: 20;
+}
+
+.label-title{
+    -fx-font-family: Empirez;
+    -fx-text-fill: linear-gradient(chocolate, sienna);
+    -fx-font-size: 26;
+}
+
+.label-welcome{
+    -fx-padding: 20;
+    -fx-text-fill: linear-gradient(chocolate, sienna);
+    -fx-font-size : 34;
+    -fx-font-family: Empirez;
+    -fx-font-weight: bold;
+    -fx-border-color: sienna;
+    -fx-border-width: 0 0 0 0;
+    -fx-underline: true;
+}
+
+.text{
+    -fx-padding: 10;
+}
+
+
+.button{
+    -fx-font-size: 18;
+    -fx-font-family: Empirez;
+    -fx-base: #b6e7c9;
+    -fx-background-radius: 15;
+    -fx-padding: 10;
+}
